@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PoolFixtures
 {
-    public partial class Form1 : Form
+    public partial class FixtureForm : Form
     {
-        public Form1()
+        public FixtureForm()
         {
             InitializeComponent();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
